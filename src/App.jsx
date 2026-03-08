@@ -6,6 +6,7 @@ export default function App() {
     <>
       <Header></Header>
       <Home></Home>
+      <Carta></Carta>
     </>
   );
 }
