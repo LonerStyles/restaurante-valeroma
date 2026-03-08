@@ -1,11 +1,12 @@
-div {
+.a{
     background-color: #FFDEAC;
 }
 
 .ex-border{
-  border: 10px solid black;
+  border: 5px solid black;
   padding: 20px;
   margin: 40px;
+  background-color: #FFDEAC;
 }
 
 .in-border{
@@ -16,8 +17,7 @@ div {
 .main-tittle {
     font-family: Libre bodoni, sans-serif;
     color: black;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .main-desc {
@@ -32,18 +32,4 @@ div {
     color: black;
 }
 
-.food-name {
-    font-family: Libre bodoni, sans-serif;
-    color: black;
-}
-
-.desc {
-    font-family: Inter, sans-serif;
-    color: gray;
-}
-
-.price {
-    font-family: Inter, sans-serif;
-    color: black;
-}
 

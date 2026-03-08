@@ -1,95 +1,129 @@
 import "../styles/Carta.css";
+import Plato from "./Plato";
 
 export default function Carta() {
     return (
         <div>
+        <div className="a">
             <div className="ex-border"><div className="in-border">
-            <title className="main-tittle">La Carta</title>
-            <h1 className="main-desc">Auténtica cocina italiana con los mejores ingredientes y tradición.</h1>
+            <h1 className="main-tittle">La Carta</h1>
+            <p className="main-desc">Auténtica cocina italiana con los mejores ingredientes y tradición.</p>
             <section>
                 <h1 className="title">Entradas</h1>
 
-                <h2 className="food-name">Bruschetta Clásica</h2>
-                <p className="desc">Pan tostado, toamte fresco, albahaca y aceite de oliva</p>
-                <span className="price">S/.18.00</span>
-
+                <Plato 
+                    name="Bruschetta Clásica"
+                    desc="Pan tostado, tomate fresco, albahaca y aceite de oliva"
+                    price="S/.18.00"                   
+                />
                 
-                <h2 className="food-name">Carpaccio di Manzo</h2>
-                <p className="desc">Finas láminas de res, parmesano y rúcula</p>
-                <span className="price">S/.32.00</span>
+                <Plato
+                    name="Carpaccio di Manzo"
+                    desc="Finas láminas de res, parmesano y rúcula"
+                    price="S/.32.00"
+                />
 
                 <h1 className="title">Pastas</h1>
 
-                <h2 className="food-name">Fettuccine Alfredo</h2>
-                <p className="desc">Salasa cremosa de parmesano y mantequilla</p>
-                <span className="price">S/.35.00</span>
+                <Plato
+                    name="Fettuccine Alfredo"
+                    desc="Salsa cremosa de parmesano y mantequilla"
+                    price="S/.35.00"
+                />
 
-                <h2 className="food-name">Spaghetti Bolognese</h2>
-                <p className="desc">Salsa de carne tradicional italiana</p>
-                <span className="price">S/.34.00</span>
+                <Plato
+                    name="Spaghetti Bolognese"
+                    desc="Salsa de carne tradicional italiana"
+                    price="S/.34.00"
+                />
 
-                <h2 className="food-name">Ravioli Ricotta e Spinaci </h2>
-                <p className="desc">Rellenos de ricotta y espinaca con salsa pomodoro</p>
-                <span className="price">S/.38.00</span>
+                <Plato
+                    name="Ravioli Ricotta e Spinaci"
+                    desc="Rellenos de ricotta y espinaca con salsa pomodoro"
+                    price="S/.38.00"
+                />
 
- 
                 <h1 className="title">Carnes</h1>
 
-                <h2 className="food-name">Pollo Parmigiana</h2>
-                <p className="desc">Pechuga empanizada con salsa de tomate y mozzarella</p>
-                <span className="price">S/.42.00</span>
+                <Plato
+                    name="Pollo Parmigiana"
+                    desc="Pechuga empanizada con salsa de tomate y mozzarella"
+                    price="S/.42.00"
+                />
 
-                <h2 className="food-name">Osso Buco</h2>
-                <p className="desc">Estofado de ternera con vino y hierbas</p>
-                <span className="price">S/.55.00</span>
+                <Plato
+                    name="Osso Buco"
+                    desc="Estofado de ternera con vino y hierbas"
+                    price="S/.55.00"
+                />
 
                 <h1 className="title">Postres</h1>
 
-                <h2 className="food-name">Tiramisú</h2>
-                <p className="desc">Clásico italiano con café y queso mascarpone</p>
-                <span className="price">S/.18.00</span>
+                <Plato
+                    name="Tiramisú"
+                    desc="Clásico italiano con café y queso mascarpone"
+                    price="S/.18.00"
+                />
 
-                <h2 className="food-name">Panna Cotta</h2>
-                <p className="desc">Crema italiana con frutos rojos</p>
-                <span className="price">S/.16.00</span>
-
+                <Plato
+                    name="Panna Cotta"
+                    desc="Crema italiana con frutos rojos"
+                    price="S/.16.00"
+                />
 
                 <h1 className="title">Bebidas</h1>
 
-                <h2 className="food-name">Vino Tinto de la Casa</h2>
-                <p className="desc">Copa de selección italiana</p>
-                <span className="price">S/.22.00</span>
+                <Plato
+                    name="Vino Tinto de la Casa"
+                    desc="Copa de selección italiana"
+                    price="S/.22.00"
+                />
 
-                <h2 className="food-name">Vino Blanco de la Casa</h2>
-                <p className="desc">Copa de slección italiana</p>
-                <span className="price">S/.22.00</span>
+                <Plato
+                    name="Vino Blanco de la Casa"
+                    desc="Copa de slección italiana"
+                    price="S/.22.00"
+                />
 
-                <h2 className="food-name">Aperol Spritz</h2>
-                <p className="desc">Aperol, prosecco y soda</p>
-                <span className="price">S/.28.00</span>
+                <Plato
+                    name="Aperol Spritz"
+                    desc="Aperol, prosecco y soda"
+                    price="S/.28.00"
+                />
 
-                <h2 className="food-name">Negroni</h2>
-                <p className="desc">Gin, vermut rojo y Campari</p>
-                <span className="price">S/.30.00</span>
+                <Plato
+                    name="Negroni"
+                    desc="Gin, vermut rojo y Campari"
+                    price="S/.30.00"
+                />
 
-                <h2 className="food-name">Limonada Italiana</h2>
-                <p className="desc">Limón fresco y hierbabuena</p>
-                <span className="price">S/.14.00</span>
+                <Plato
+                    name="Limonada Italiana"
+                    desc="Limón fresco y hierbabuena"
+                    price="S/.14.00"
+                />
 
-                <h2 className="food-name">Agua Mineral</h2>
-                <p className="desc">Con o sin gas</p>
-                <span className="price">S/.10.00</span>
+                <Plato
+                    name="Agua Mineral"
+                    desc="Con o sin gas"
+                    price="S/.10.00"
+                />
 
-                <h2 className="food-name">Café Espresso</h2>
-                <p className="desc">Preparación italiana profesional</p>
-                <span className="price">S/.12.00</span>
+                <Plato
+                    name="Café Espresso"
+                    desc="Preparación italiana profesional"
+                    price="S/.12.00"
+                />
 
-                <h2 className="food-name">Cappuccino</h2>
-                <p className="desc">Espuma con leche cremosa</p>
-                <span className="price">S/.15.00</span>
+                <Plato
+                    name="Cappuccino"
+                    desc="Espuma con leche cremosa"
+                    price="S/.15.00"
+                />
             </section>
             </div>
             </div>
+        </div>
         </div>
     );
 }
