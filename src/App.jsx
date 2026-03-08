@@ -1,13 +1,11 @@
-import Home from "./views/Home";
 import Header from "./components/Header";
-import Carta from "./components/Carta"
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <>
       <Header></Header>
-      <Home></Home>
-      <Carta></Carta>
+      <Footer></Footer>
     </>
   );
 }
