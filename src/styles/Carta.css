@@ -1,5 +1,6 @@
 .a{
-    background-color: #FFDEAC;
+    background-color: #ffdeac;
+    font-size: 18px;
 }
 
 .ex-border{
@@ -11,20 +12,20 @@
 
 .in-border{
   border: 5px solid black;
-  padding: 40px;
+  padding: 50px;
 }
 
 .main-tittle {
     font-family: Libre bodoni, sans-serif;
     color: black;
     text-align: center;
+    font-size: 40px;
 }
 
 .main-desc {
     font-family: Inter, sans-serif;
     color: gray;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .tittle {
