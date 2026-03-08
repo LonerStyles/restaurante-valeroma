@@ -1,4 +1,4 @@
-import "../styles/Header.css";
+import "../styles/Nav.css";
 import loginIcon from "../assets/loginIcon.png";
 import registerIcon from "../assets/registerIcon.png";
 
