@@ -1,0 +1,14 @@
+.food-name {
+    font-family: Libre bodoni, sans-serif;
+    color: black;
+}
+
+.desc {
+    font-family: Inter, sans-serif;
+    color: gray;
+}
+
+.price {
+    font-family: Inter, sans-serif;
+    color: black;
+}

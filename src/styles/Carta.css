@@ -1,0 +1,36 @@
+.a{
+    background-color: #ffdeac;
+    font-size: 18px;
+}
+
+.ex-border{
+  border: 5px solid black;
+  padding: 20px;
+  margin: 40px;
+  background-color: #FFDEAC;
+}
+
+.in-border{
+  border: 5px solid black;
+  padding: 50px;
+}
+
+.main-tittle {
+    font-family: Libre bodoni, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-desc {
+    font-family: Inter, sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+.tittle {
+    font-family: Inter, sans-serif;
+    color: black;
+}
+
+
