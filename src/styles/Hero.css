@@ -1,0 +1,49 @@
+.hero {
+    background-image: url("../assets/hero.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+.hero h1{
+    font-size: 3rem;
+    
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.hero-btn{
+ display: flex;
+ gap: 120px;
+}
+
+.btn-primary{
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    border: 2px solid black;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 180px;
+}
+
+.btn-secondary{
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 180px;
+}
