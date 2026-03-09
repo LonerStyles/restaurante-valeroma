@@ -1,3 +1,12 @@
+.plato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dashed #808080;
+    margin-bottom: 20px;
+}
+
 .food-name {
     font-family: Libre bodoni, sans-serif;
     color: black;
@@ -11,4 +20,5 @@
 .price {
     font-family: Inter, sans-serif;
     color: black;
+    font-weight: 600;
 }
