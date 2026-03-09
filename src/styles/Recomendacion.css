@@ -1,0 +1,44 @@
+.recomendacion-section {
+  background-color: #FFDEAC; 
+  text-align: center;
+  border: 6px double #333;
+  border-radius: 8px;
+
+  max-width: 1200%;
+  margin: 0 auto;       
+}
+
+.recomendacion-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.recomendacion-header h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.recomendacion-platos {
+  display: flex;
+  justify-content: center; 
+  gap: 2rem;             /* menos espacio entre platos */
+  flex-wrap: wrap;
+}
+
+.plato {
+  max-width: 300px;
+}
+
+.plato img {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.plato p {
+  font-size: 1rem;
+  color: #222;
+  line-height: 1.4;
+}

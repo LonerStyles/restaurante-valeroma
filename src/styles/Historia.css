@@ -1,0 +1,41 @@
+.historia-section {
+  background-color: #0B2A47; 
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.historia-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.historia-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #FFDEAC;
+}
+
+.historia-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: #878787;
+}
+
+.historia-content p {
+  line-height: 1.6;
+}
+
+.historia-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.historia-gallery img {
+  width: 300px;
+  
+  object-fit: cover;
+}

@@ -1,0 +1,65 @@
+.final-secciones {
+  width: 100%;        /* ocupa todo el ancho del contenedor */
+  margin: 0 auto;     /* centrado dentro de la página */
+}
+
+.frase-section {
+  background-image: url("../assets/fondococina.png"); 
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frase-section h2 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.reserva-section {
+  background-image: url("../assets/Reserva.png"); 
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+
+  padding: 4rem 2rem;   /* espacio vertical, menos lateral */
+  border: 6px double #333;
+  text-align: center;
+}
+
+.reserva-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.reserva-section h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #C9C9C9;
+}
+
+.reserva-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.reserva-btn {
+  background-color: white;
+  color: black;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
