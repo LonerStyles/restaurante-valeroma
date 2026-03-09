@@ -11,7 +11,7 @@ export default function Recomendacion() {
       </div>
 
       <div className="recomendacion-platos">
-        <div className="plato">
+        <div className="rm-plato">
           <img src={rmd1} alt="Ravioli de ricotta & limón" />
           <p>
             <strong>Ravioli de ricotta & limón</strong><br />
@@ -19,7 +19,7 @@ export default function Recomendacion() {
           </p>
         </div>
 
-        <div className="plato">
+        <div className="rm-plato">
           <img src={rmd2} alt="Risotto al Parmigiano" />
           <p>
             <strong>Risotto al Parmigiano</strong><br />
@@ -27,7 +27,7 @@ export default function Recomendacion() {
           </p>
         </div>
 
-        <div className="plato">
+        <div className="rm-plato">
           <img src={rmd3} alt="Filete de res al vino tinto" />
           <p>
             <strong>Filete de res al vino tinto</strong><br />

@@ -27,17 +27,17 @@
   flex-wrap: wrap;
 }
 
-.plato {
+.rm-plato {
   max-width: 300px;
 }
 
-.plato img {
+.rm-plato img {
   width: 100%;
   margin-bottom: 1rem;
   display: block;
 }
 
-.plato p {
+.rm-plato p {
   font-size: 1rem;
   color: #222;
   line-height: 1.4;
